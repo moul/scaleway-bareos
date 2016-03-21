@@ -27,10 +27,9 @@ RUN echo bareos-database-common bareos-database-common/missing-db-package-error 
 RUN echo postfix postfix/main_mailer_type select No configuration | debconf-set-selections
 RUN apt-get -y -qq install bareos
 RUN apt-get -y -qq install bareos-database-postgresql
-
-
-
-#&& apt-get clean
+RUN apt-get -y -qq install bareos-webui
+RUN apt-get -y -qq install postgresql
+RUN apt-get clean
 
 
 # Clean rootfs from image-builder
