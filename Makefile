@@ -8,7 +8,7 @@ VENDOR_URL =		https://www.bareos.org/en/
 DOCUMENTATION_URL =	https://www.bareos.org/en/documentation.html
 DEFAULT_IMAGE_ARCH =	x86_64
 
-IMAGE_VOLUME_SIZE =	150G
+IMAGE_VOLUME_SIZE =	50G
 IMAGE_BOOTSCRIPT =	stable
 IMAGE_NAME =		Bareos Server
 
